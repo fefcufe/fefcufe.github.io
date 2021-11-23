@@ -35,13 +35,18 @@
 
     #fotoPortfolio {
         border-radius: 100%;
-        display: inline;
+        display: block;
+        margin:auto
         
     }
 
     .topics {
         font-family: 'Raleway', sans-serif ;
         color: white;
+        text-align: center;
+        display: block; 
+        margin: auto;
+        padding: 20px; 
         
     }
 
@@ -61,6 +66,14 @@
     li {
         font-family: 'Raleway', sans-serif;
     } 
+
+    #lista-habilidades {
+        text-align: center;
+        display: block;
+        margin: auto;
+        background-color: rgb(142, 154, 175);
+        padding: 50px;
+    }
     
     body {
         background-color: rgb(203, 192, 211)
@@ -78,13 +91,12 @@
     <hr>
     <br><br>
     <em><h3 class="topics"> Sobre mim:</h3></em>
-    <p> Meu nome é Fernanda, tenho 29 anos e moro no Rio de Janeiro. Sou formada em Ciências Biológicas<br>mas estou em processo de transição de carreira para a área de tecnologia. <br>Atualmente estou cursando Engenharia de Computação e Informação na <br> <a href="http://poli.ufrj.br/graduacao/computacao-e-informacao/"> UFRJ</a> e também sou estudante na escola <a href="https://www.betrybe.com/formacao-desenvolvimento-web">Trybe</a> no curso de Desenvolvimento Web Full Stack. <br>
-       
+    <p> Meu nome é Fernanda, tenho 29 anos e moro no Rio de Janeiro. Sou formada em Ciências Biológicas<br>mas estou em processo de transição de carreira para a área de tecnologia. <br>Atualmente estou cursando Engenharia de Computação e Informação na <br> <a href="http://poli.ufrj.br/graduacao/computacao-e-informacao/"> UFRJ</a> e também sou estudante na escola <a href="https://www.betrybe.com/formacao-desenvolvimento-web">Trybe</a> no curso de Desenvolvimento Web Full Stack. 
     <br><br>
     <hr>
     <br><br>
         <em><h3 class="topics"> Habilidades:</h3></em>
-        <ul>
+        <ul id='lista-habilidades'>
             <li>Noções de Unix & Shell</li>
             <li><strong>Experiência básica com Git e GitHub</strong></li>
             <li>Conhecimentos básicos em Lógica de Programação; Python</li>
